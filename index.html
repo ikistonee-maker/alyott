@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alya Denika Az-Zahra</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background: linear-gradient(135deg, pink, white, deeppink);
+      overflow:hidden;
+    }
+
+    .card{
+      width:320px;
+      padding:30px;
+      border-radius:30px;
+      background: rgba(255,255,255,0.15);
+      backdrop-filter: blur(10px);
+      text-align:center;
+      transition:0.4s ease;
+      box-shadow: 0 0 25px rgba(255,255,255,0.4);
+    }
+
+    .card:hover{
+      transform: translateY(-10px) scale(1.03);
+      box-shadow: 5px -3px 41px 20px rgba(255, 0, 204, 0.97);
+    }
+
+    .foto{
+      width:180px;
+      height:180px;
+      border-radius:50%;
+      object-fit:cover;
+      border:6px solid white;
+      transition:0.4s ease;
+      box-shadow: 0 0 20px rgba(255,255,255,0.7);
+    }
+
+    .foto:hover{
+      transform:scale(1.08) rotate(2deg);
+      box-shadow: 5px -3px 41px 20px rgba(255, 0, 204, 0.97);
+    }
+
+    h1{
+      margin-top:20px;
+      font-size:28px;
+      color:black;
+      text-shadow:0 0 10px rgba(255,255,255,0.8);
+    }
+
+    p{
+      margin-top:10px;
+      color:black;
+      font-size:15px;
+      opacity:0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <!-- Ganti src dengan foto Alya -->
+    <img 
+      src="IMG-20260408-WA0009.jpg" 
+      alt="Alya Denika Az-Zahra"
+      class="foto"
+    >
+
+    <h1>Alya Denika Az-Zahra</h1>
+    <p>Beautiful Glow Hover Effect ✨</p>
+  </div>
+
+</body>
+</html>
